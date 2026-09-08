@@ -26,6 +26,21 @@ mbaghi3@gatech.edu
 | **cXGBoost** | Constrained gradient boosting that enforces the manifold-chart bound inside every leaf, so predicted reduced-order bases are valid by construction. | [code](https://github.com/MelikaBaghi/cXGBoost) · [paper](https://arxiv.org/abs/2605.04130) |
 | **State-EXP3** | Delayed bandits with drifting state losses: one delayed outcome is charged to every action that could have produced that state, at a cost set by an effective dimension. | [code](https://github.com/MelikaBaghi/State-exp3) · [paper](https://arxiv.org/abs/2609.01761) |
 
+### Publications & preprints
+
+| | Status |
+|---|---|
+| [Constrained Extreme Gradient Boosting for Adapting Reduced-Order Models](https://arxiv.org/abs/2605.04130) | Under review |
+| [Reducing Waiting Time for Medical Tourists through Hybrid Agent-Based and Discrete-Event Simulation](https://arxiv.org/abs/2605.19139) | Under review, *Health Care Management Science* |
+| [Guaranteed Adaptive Modality Acquisition: When the Policy Chooses Its Own Calibration Group](https://arxiv.org/abs/2608.15520) | Under review |
+| [Pooling and Drift in Delayed Bandits](https://arxiv.org/abs/2609.01761) | ML×OR 2026 Workshop (non-archival) |
+| Tensor-Based Reduced Order Model | Under review |
+| Supervised Active-Subspace Input Reduction and Risk-Controlled Field Uncertainty | Under review |
+
+Full list on [Google Scholar](https://scholar.google.com/citations?user=UNGLFyUAAAAJ&hl=en) ·
+[CV](https://melikabaghi.github.io/assets/Melika_Baghi_CV.pdf) ·
+[Resume](https://melikabaghi.github.io/assets/Melika_Baghi_Resume.pdf)
+
 ### Interests
 
 Conformal prediction · Uncertainty quantification · Multimodal learning with missing data ·
