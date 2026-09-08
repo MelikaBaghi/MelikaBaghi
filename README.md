@@ -22,7 +22,7 @@ mbaghi3@gatech.edu
 | Project | What it does | Links |
 |---|---|---|
 | **Medical tourism hospital simulation** | Hybrid agent-based + discrete-event model of a multi-specialty international-patient department. Letting wards share idle beds cut the mean admission queue **43%**, 25.9 → 14.8 days (30 replications, *p* < 0.001). | [code](https://github.com/MelikaBaghi/IPD-medical-tourism-simulation) · [paper](https://arxiv.org/abs/2605.19139) · [DOI](https://doi.org/10.5281/zenodo.22646799) |
-| **RouteCert** | Certifies a prediction when the evidence already collected determines the decision, and otherwise abstains and says which modality to acquire next — with finite-sample guarantees conditional on the modality pattern. | [code](https://github.com/MelikaBaghi/ModalityAcquisition) · [paper](https://arxiv.org/abs/2608.15520) |
+| **RouteCert** | Certifies a prediction when the evidence already collected determines the decision, and otherwise abstains and says which modality to acquire next — with finite-sample guarantees conditional on the modality pattern. | [code](https://github.com/MelikaBaghi/RouteCert) · [paper](https://arxiv.org/abs/2608.15520) |
 | **cXGBoost** | Constrained gradient boosting that enforces the manifold-chart bound inside every leaf, so predicted reduced-order bases are valid by construction. | [code](https://github.com/MelikaBaghi/cXGBoost) · [paper](https://arxiv.org/abs/2605.04130) |
 | **State-EXP3** | Delayed bandits with drifting state losses: one delayed outcome is charged to every action that could have produced that state, at a cost set by an effective dimension. | [code](https://github.com/MelikaBaghi/State-exp3) · [paper](https://arxiv.org/abs/2609.01761) |
 
