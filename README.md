@@ -1,13 +1,14 @@
 ## Melika Baghi
 
-Ph.D. student in Industrial & Systems Engineering at **Georgia Tech**, advised by
-Kamran Paynabar and Xiao Liu. I build machine learning models for messy,
-high-dimensional data and pair them with **calibrated uncertainty**, so a model says
-how far it can be trusted before anyone acts on it.
+**Ph.D. Candidate in Industrial & Systems Engineering at Georgia Tech**, working at the
+intersection of machine learning, statistics, and data-driven decision making. I develop
+methods for high-dimensional, structured and incomplete data, with applications spanning
+healthcare, scientific computing, and sequential decision problems.
 
-My applied focus is **healthcare**: patient flow, hospital capacity, and clinical
-decisions made from incomplete evidence. I also hold an M.S. in Statistics (Georgia
-Tech) and an M.S. in Industrial Engineering — Healthcare Systems.
+`Python` · `PyTorch` · `scikit-learn` · `XGBoost` · `SQL` · `Statistical ML`
+
+I also hold an M.S. in Statistics (Georgia Tech) and an M.S. in Industrial Engineering
+with a focus on Healthcare Systems. Advised by Kamran Paynabar and Xiao Liu.
 
 **[melikabaghi.github.io](https://melikabaghi.github.io)** ·
 [Google Scholar](https://scholar.google.com/citations?user=UNGLFyUAAAAJ&hl=en) ·
