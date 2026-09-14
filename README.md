@@ -32,8 +32,8 @@ mbaghi3@gatech.edu
 | | Status |
 |---|---|
 | [Constrained Extreme Gradient Boosting for Adapting Reduced-Order Models](https://arxiv.org/abs/2605.04130) | Under review |
-| [Reducing Waiting Time for Medical Tourists through Hybrid Agent-Based and Discrete-Event Simulation](https://arxiv.org/abs/2605.19139) | Under review, *Health Care Management Science* |
-| [Guaranteed Adaptive Modality Acquisition: When the Policy Chooses Its Own Calibration Group](https://arxiv.org/abs/2608.15520) | Under review |
+| [Reducing Waiting Time for Medical Tourists Through Hybrid Agent-Based and Discrete-Event Simulation](https://arxiv.org/abs/2605.19139) | Under review, *Health Care Management Science* |
+| [Conditional Validity for Adaptive Modality Acquisition: When the Policy Chooses Its Own Calibration Group](https://arxiv.org/abs/2608.15520) | Under review |
 | [Pooling and Drift in Delayed Bandits](https://arxiv.org/abs/2609.01761) | ML×OR 2026 Workshop (non-archival) |
 | Tensor-Based Reduced Order Model | Under review |
 | Supervised Active-Subspace Input Reduction and Risk-Controlled Field Uncertainty | Under review |
@@ -44,8 +44,6 @@ Full list on [Google Scholar](https://scholar.google.com/citations?user=UNGLFyUA
 
 ### Interests
 
-Machine learning for high-dimensional data · Uncertainty quantification and conformal prediction ·
+High-dimensional statistical learning · Uncertainty quantification and conformal prediction ·
 Multimodal learning and missing data · Sequential decision making and bandits ·
-Reduced-order and surrogate modeling · Tensor methods and geometry-aware learning ·
-Generative and diffusion models for scientific systems · Healthcare analytics and patient-flow simulation ·
-Design of experiments · Statistical learning theory
+Reduced-order and surrogate modeling · Tensor and geometry-aware learning · Scientific machine learning
