@@ -21,7 +21,7 @@ mbaghi3@gatech.edu
 
 | Project | What it does | Links |
 |---|---|---|
-| **Medical tourism hospital simulation** | Hybrid agent-based + discrete-event model of a multi-specialty international-patient department. Against a discrete-event-only baseline it cut medical tourists' hospital-queue wait **82%** (13.7 → 2.4 days), and bed sharing cut the inpatient admission queue **43%** (25.9 → 14.8 days, 30 replications, *p* < 0.001). | [code](https://github.com/MelikaBaghi/IPD-medical-tourism-simulation) · [paper](https://arxiv.org/abs/2605.19139) · [DOI](https://doi.org/10.5281/zenodo.22646799) |
+| **Medical tourism hospital simulation** | Hybrid agent-based + discrete-event model of a multi-specialty international-patient department, with channel choice, physician switching, abandonment and deterioration modeled explicitly. A 256-run factorial screen finds **bed capacity** the most consistent driver of waiting; against an otherwise identical discrete-event-only model, the hybrid model's mean inpatient admission wait is **42% lower** (14.8 vs 25.8 days, *p* < 0.001). | [code](https://github.com/MelikaBaghi/IPD-medical-tourism-simulation) · [paper](https://arxiv.org/abs/2605.19139) · [DOI](https://doi.org/10.5281/zenodo.22646799) |
 | **RouteCert** | Certifies a prediction when the evidence already collected determines the decision, and otherwise abstains and says which modality to acquire next, with finite-sample guarantees conditional on the modality pattern. Evaluated on four datasets spanning ECG, speech and wearable sensing. | [code](https://github.com/MelikaBaghi/RouteCert) · [paper](https://arxiv.org/abs/2608.15520) |
 | **cXGBoost** | Constrained gradient boosting that enforces the manifold-chart bound inside every leaf, so predicted reduced-order bases are valid by construction. Cuts high-Reynolds reconstruction error **5×** against Grassmann interpolation baselines. | [code](https://github.com/MelikaBaghi/cXGBoost) · [paper](https://arxiv.org/abs/2605.04130) |
 | **State-EXP3** | Delayed bandits with drifting state losses: one delayed outcome is charged to every action that could have produced that state, at a cost set by an effective dimension. Reduces regret up to **79%** against action-level weighting and **32–68%** against a rate-optimal delayed-bandit baseline. | [code](https://github.com/MelikaBaghi/State-exp3) · [paper](https://arxiv.org/abs/2609.01761) |
@@ -32,7 +32,7 @@ mbaghi3@gatech.edu
 | | Status |
 |---|---|
 | [Constrained Extreme Gradient Boosting for Adapting Reduced-Order Models](https://arxiv.org/abs/2605.04130) | Under review |
-| [Reducing Waiting Time for Medical Tourists Through Hybrid Agent-Based and Discrete-Event Simulation](https://arxiv.org/abs/2605.19139) | Under review, *Health Care Management Science* |
+| [Managing Shared Hospital Capacity for Medical Tourism: Patient Behavior and Hybrid Simulation](https://arxiv.org/abs/2605.19139) | Under review, *Health Care Management Science* |
 | [Conditional Validity for Adaptive Modality Acquisition: When the Policy Chooses Its Own Calibration Group](https://arxiv.org/abs/2608.15520) | Under review |
 | [Pooling and Drift in Delayed Bandits](https://arxiv.org/abs/2609.01761) | ML×OR 2026 Workshop (non-archival) |
 | Tensor-Based Reduced Order Model | Under review |
