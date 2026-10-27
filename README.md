@@ -25,7 +25,7 @@ mbaghi3@gatech.edu
 | **RouteCert** | Certifies a prediction when the evidence already collected determines the decision, and otherwise abstains and says which modality to acquire next, with finite-sample guarantees conditional on the modality pattern. Evaluated on four datasets spanning ECG, speech and wearable sensing. | [code](https://github.com/MelikaBaghi/RouteCert) · [paper](https://arxiv.org/abs/2608.15520) |
 | **cXGBoost** | Constrained gradient boosting that enforces the manifold-chart bound inside every leaf, so predicted reduced-order bases are valid by construction. Cuts high-Reynolds reconstruction error **5×** against Grassmann interpolation baselines. | [code](https://github.com/MelikaBaghi/cXGBoost) · [paper](https://arxiv.org/abs/2605.04130) |
 | **State-EXP3** | Delayed bandits with drifting state losses: one delayed outcome is charged to every action that could have produced that state, at a cost set by an effective dimension. Reduces regret up to **79%** against action-level weighting and **32–68%** against a rate-optimal delayed-bandit baseline. | [code](https://github.com/MelikaBaghi/State-exp3) · [paper](https://arxiv.org/abs/2609.01761) |
-| **Tensor-structured surrogates** | Keeps the multiway structure of simulation output instead of flattening it: every mode gets its own subspace, interpolated on its own manifold, with cores aligned before one low-rank surrogate is fitted. Across four PDE benchmarks, **35.6× to 564×** less interpolation work and **4× to 108×** faster than flattened baselines, matching their accuracy within 0.35 percentage points. | completed manuscript |
+| **Tensor-structured surrogates** | Keeps the multiway structure of simulation output instead of flattening it: every mode gets its own subspace, interpolated on its own manifold, with cores aligned before one low-rank surrogate is fitted. Across five PDE benchmarks in 2D and 3D, the interpolation size is **13× to 482× smaller** and cached queries run 3.3× to 8.5× faster than a single-subspace surrogate, with mean errors within 0.22 percentage points. | [paper](https://arxiv.org/abs/2610.34559) |
 | **LLM agents as simulated users** | Three dated OpenAI model snapshots, with a fixed prompt, strict JSON schema and cached replies, acted as 36 synthetic patient profiles inside a queueing simulation of eight capacity policies (120 paired seeds). Matched on baseline rates, they **disagreed on the best policy** under a demand surge; simple behavioral rules picked the same policy, so the study stopped at its go/no-go gate. | [details](https://melikabaghi.github.io/projects.html) |
 | **Retrieval-augmented claim verification** | Local RAG over 5,183 SciFact abstracts: BM25, two dense retrievers, rank fusion and reranking, with an open 1.5B LLM returning JSON verdicts with citations. Hybrid retrieval raised nDCG@10 from **0.678 to 0.724** over BM25 (*p* = 0.0008); one distractor abstract cut faithful rationales from 0.251 to 0.142. | [details](https://melikabaghi.github.io/projects.html) |
 
@@ -33,11 +33,11 @@ mbaghi3@gatech.edu
 
 | | Status |
 |---|---|
+| [A Product-Grassmann Tucker Surrogate for Parametric Field Prediction](https://arxiv.org/abs/2610.34559) | Submitted, *Journal of Computational Physics* |
 | [Constrained Extreme Gradient Boosting for Adapting Reduced-Order Models](https://arxiv.org/abs/2605.04130) | Under review |
 | [Managing Shared Hospital Capacity for Medical Tourism: Patient Behavior and Hybrid Simulation](https://arxiv.org/abs/2605.19139) | Under review, *Health Care Management Science* |
 | [Conditional Validity for Adaptive Modality Acquisition: When the Policy Chooses Its Own Calibration Group](https://arxiv.org/abs/2608.15520) | Under review |
 | [Pooling and Drift in Delayed Bandits](https://arxiv.org/abs/2609.01761) | Under review |
-| Tensor-Based Reduced Order Model | Completed manuscript |
 | Supervised Active-Subspace Input Reduction and Risk-Controlled Field Uncertainty | Completed manuscript |
 
 Full list on [Google Scholar](https://scholar.google.com/citations?user=UNGLFyUAAAAJ&hl=en) ·
